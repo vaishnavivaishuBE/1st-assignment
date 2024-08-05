@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Top 5 Favorite South Indian Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ol {
+            counter-reset: movie-counter;
+        }
+        ol > li {
+            counter-increment: movie-counter;
+            margin-bottom: 20px;
+        }
+        ol > li::before {
+            content: counter(movie-counter) ". ";
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul > li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 5 Favorite South Indian Movies</h1>
+    <ol>
+        <li>
+            Baahubali: The Beginning
+            <ul>
+                <li><strong>Year Released:</strong> 2015</li>
+                <li><strong>Main Actors:</strong> Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah</li>
+                <li><strong>Description:</strong> An epic historical fiction film that follows the journey of a young man who discovers his royal heritage and his role in an ancient kingdom's destiny.</li>
+            </ul>
+        </li>
+        <li>
+            K.G.F: Chapter 1
+            <ul>
+                <li><strong>Year Released:</strong> 2018</li>
+                <li><strong>Main Actors:</strong> Yash, Srinidhi Shetty</li>
+                <li><strong>Description:</strong> A period drama about the rise of a poor boy from the streets to becoming the most feared man in Kolar Gold Fields.</li>
+            </ul>
+        </li>
+        <li>
+            Ala Vaikunthapurramuloo
+            <ul>
+                <li><strong>Year Released:</strong> 2020</li>
+                <li><strong>Main Actors:</strong> Allu Arjun, Pooja Hegde</li>
+                <li><strong>Description:</strong> A light-hearted family drama that revolves around the complexities of family relationships and a young man's journey to discover his true identity.</li>
+            </ul>
+        </li>
+        <li>
+            Vikram Vedha
+            <ul>
+                <li><strong>Year Released:</strong> 2017</li>
+                <li><strong>Main Actors:</strong> R. Madhavan, Vijay Sethupathi</li>
+                <li><strong>Description:</strong> A neo-noir action thriller that explores the confrontation between a righteous police officer and a notorious gangster.</li>
+            </ul>
+        </li>
+        <li>
+            Drishyam
+            <ul>
+                <li><strong>Year Released:</strong> 2013</li>
+                <li><strong>Main Actors:</strong> Mohanlal, Meena</li>
+                <li><strong>Description:</strong> A gripping drama about a father's desperate measures to protect his family from the law after they become involved in a crime.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
